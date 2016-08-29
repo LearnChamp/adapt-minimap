@@ -22,7 +22,7 @@ main goals of this extension:
 >**_iconId** (string): Id of the Components icon (= SVG Element) in the map.   
 
 ### setting up the map
-![map setup](https://github.com/LearnChamp/adapt-minimap/examples/mapDescription.png "")
+![map setup](https://raw.githubusercontent.com/LearnChamp/adapt-minimap/master/examples/mapDescription.png "")
 
 ### Animations:
 As the leraner scrolls through the course, Label id is added dynamicly to the wrapper element. This can be used to add CSS animations to the map. These styles should be added to the svg map directly: 
