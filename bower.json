@@ -1,0 +1,17 @@
+{
+    "name": "adapt-minimap",
+    "version": "0.0.1",
+    "framework": "^2.0.0",
+    "homepage": "https://github.com/LearnChamp/adapt-minimap",
+    "issues": "https://github.com/LearnChamp/adapt-minimap/issues",
+    "displayName": "mini map",
+    "extension": "minimap",
+    "description": "",
+    "main": "/js/adapt-minimap.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "GPLv3",
+    "targetAttribute": "_minimap"
+}

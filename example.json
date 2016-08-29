@@ -1,0 +1,34 @@
+// To go on a contentObject
+"_minimap": {
+    "_path": "course/en/images/wien.svg",
+    "_iconAnimation": [
+        [
+            {
+                "opacity": 1,
+                "r": "+=10"
+            },
+            {
+                "duration": 500,
+                "easing": "swing"
+            }
+        ],
+        [
+            {
+                "opacity": 1,
+                "r": "-=10",
+                "fill": "#005384"
+            },
+            {
+                "duration": 500,
+                "easing": "swing"
+            }
+        ]
+    ]
+}
+
+// To go on a component
+"_minimap": {
+    "_labelId": "label-1",
+    "_progressId": "path-1",
+    "_iconId": "base-1"
+}
