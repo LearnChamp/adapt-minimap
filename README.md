@@ -24,6 +24,15 @@ main goals of this extension:
 ### setting up the map
 ![map setup](https://raw.githubusercontent.com/LearnChamp/adapt-minimap/master/examples/mapDescription.png "")
 
+| item         | components._minimap[xxx] | SVG Element   | SVG id attribute                   | Image label |
+|--------------|--------------------------|---------------|------------------------------------|-------------|
+|**Hotspot label** used for navigation | _labelId | `<g />` | required, any valid attribute name | A |
+|**Icon** highlights if a component is completed | _iconId | `<path />,<circle />, <rectangle />` | required, any valid attribute name | B |
+|**Path** connecting 2 components | _progressId | `<path />` | required, any valid attribute name | C |
+|**Path** used to show learners progress |  | `<path />` | required, must be named ",main" | D |
+|**Wrapper** |  | `<g />` | required, must be named ",layer1" | E |
+
+
 ### Animations:
 As the leraner scrolls through the course, Label id is added dynamicly to the wrapper element. This can be used to add CSS animations to the map. These styles should be added to the svg map directly: 
 ``` CSS
